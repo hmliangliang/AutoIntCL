@@ -2,7 +2,7 @@
 
 在之前我们已开源了[AutoIntCL算法](https://github.com/hmliangliang/AutoIntCL)、[GNNCL算法](https://github.com/hmliangliang/GNNCL)、[基于faiss的向量检索算法](https://github.com/hmliangliang/faissSearch)，相关的算法代码可以通过链接来访问。
 
-我们将这些算法部署在某项目的线上服务中，并统计了近20多天的线上效果(2022.07.01--2022.07.25)，数据如下表所示：
+我们将这些算法部署在某项目的线上推荐服务中，并统计了近20多天的线上效果(2022.07.01--2022.07.25)，统计数据如下表所示：
 
 表1  算法的点击通过率
 
