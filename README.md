@@ -52,7 +52,7 @@ randomv2|31508|2070|0.0657|
 | battleclub_v2_autoint_v3| 2.3040| 10%->2022.08.04已下线| 
 | chieffriendclub_battleclub_v2_autoint_v1| 2.6185| 5%| 
 | faiss|2.7781| 5%| 
-| GNNCLV2| 2.7049| 5%| 
+| GNNCL| 2.7049| 5%| 
 | mulretrieval_v1_autoint_v1| 2.6471| 10%| 
 | mulretrieval_v1_autoint_v3| 2.6488| 20%| 
 | mulretrieval_v1_autoint_v4| 2.6453| 25%| 
@@ -68,7 +68,7 @@ randomv2|31508|2070|0.0657|
 |battleclub_v2_autoint_v3|4.2119|10%->2022.08.04已下线|
 |chieffriendclub_battleclub_v2_autoint_v1|6.4038|5%|
 |faiss|6.3700|5%|
-|GNNCLV2|6.4090|5%|
+|GNNCL|6.4090|5%|
 |mulretrieval_v1_autoint_v1|6.5530|10%|
 |mulretrieval_v1_autoint_v3|6.5816|20%|
 |mulretrieval_v1_autoint_v4|6.6074|25%|
