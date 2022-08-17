@@ -77,3 +77,11 @@ randomv2|31508|2070|0.0657|
 表4与表5展示了各个已上线算法在2022.08.03-2022.08.07期间的曝光成功率均值，由算法的结果可以看出，无论是按pair统计口径上，还是按人数统计口径上，AutoIntCL算法效果最佳，相对于randomv2提升了21.74%(pair)与11.3%(人数)，结合battleclubv2算法可以看出，使用AutoIntCL算法(使用battleclubv2的结果作为候选集)对battleclubv2的结果进行精排，的确提升了算法的效果。同时结合AutoIntCL算法与battleclub-v2-autoint-v1算法可以看出，两者都是使用了autoint来融合特征，AutoIntCL算法比battleclub-v2-autoint-v1算法多了对比学习与多模态特征学习过程，AutoIntCL算法相对于battleclub-v2-autoint-v1算法提升了7.2001%(pair)与6.7249%(人数)，由此可见，引入对比学习与多模态特征学习过程，的确能提升算法的效果。
 
 根据上周的算法效果，将调整算法流量，保留AutoIntCL、mulretrieval_v1_autoint_v3、mulretrieval_v1_autoint_v4与randomv2四个算法，其余的算法全部下线。其中新算法的流量切分如下：AutoIntCL：35%，mulretrieval_v1_autoint_v3：30%，mulretrieval_v1_autoint_v4：30%，randomv2：5%
+
+![fig1](算法效果pair.jpg)
+
+图1  线上算法的曝光成功率(按pair进行统计)
+
+![fig2](算法效果人数.jpg)
+
+图2  线上算法的曝光成功率(按人数进行统计)
